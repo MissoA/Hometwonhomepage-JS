@@ -1,0 +1,95 @@
+body {
+    background-image: url("https://airlinesofficecounter.com/wp-content/uploads/2023/03/Al-Qassim-.jpg");
+    font-family: 'tahoma', sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+    .header {
+    font-family:'Times New Roman';
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 100px;
+    margin-bottom: 50px;
+     }
+     button{
+        color: #0f1419;
+        width: 200px;
+        height: 100px;
+        border: 3px solid brown;
+        border-radius: 10px;
+        background: lemonchiffon;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-weight: bold;
+     }
+   section {
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255 , 0.7); /*white background with 70% opacity*/
+    
+    } 
+    
+    section h2 {
+    color: maroon;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+     }
+
+    section p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #444;
+    padding: 0 20px;
+    }
+
+.attraction {
+   flex: 1;
+   text-align: center;
+   background: #f9f9f9;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: rgb(255, 255, 255 , 0.8);
+}
+.attraction img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255 , 0.6);
+}
+.attraction h3{
+    margin-top: 10px;
+    color: coral;
+}
+.attraction p{
+    color: #444;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-radius: 50px;
+    background-color: rgb(240, 230, 140 , 0.8);
+}
+
+footer a {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: red;
+}
